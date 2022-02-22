@@ -1,1 +1,5 @@
-# Ray-Caster
+# Ray Caster
+
+Ray Caster
+
+## Usage
