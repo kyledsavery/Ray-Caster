@@ -1,0 +1,22 @@
+camera, width: 2.0, height: 2.0
+light, color: [2, 2, 2], radial-a2: 0.125, radial-a1: 0.125, radial-a0: 0.125, position: [-1, 1, 0]
+light, color: [2, 2, 2], radial-a2: 0.125, radial-a1: 0.125, radial-a0: 0.125, position: [1.5, 1, 0]
+% Prism
+triangle, diffuse_color: [0.5, 0.5, 1], point_a: [-1.5, -0.5, -3], point_b: [-1, 1, -4], point_c: [-0.5, -0.5, -2.5], specular_color: [1, 1, 1]
+triangle, diffuse_color: [0.5, 0.5, 1], point_a: [-0.5, -0.5, -2.5], point_b: [-1, 1, -4], point_c: [0.3, -0.5, -4], specular_color: [1, 1, 1]
+% Incoming
+triangle, diffuse_color: [1, 1, 1], point_a: [-4, 1.5, -2.7], point_b: [-4, 1.6, -3.9], point_c: [-1, -0.3, -3.5], specular_color: [1, 1, 1], shadow: 0.0
+% Outgoing
+triangle, diffuse_color: [1, 0, 0],    point_a: [-0.7, 0, -3.5], point_b: [6, 4, -4],   point_c: [6, 3.6, -4], shadow: 0.0
+triangle, diffuse_color: [1, 0.29, 0], point_a: [-0.7, 0, -3.5], point_b: [6, 3.6, -4], point_c: [6, 3.2, -4], shadow: 0.0
+triangle, diffuse_color: [1, 0.49, 0],  point_a: [-0.7, 0, -3.5], point_b: [6, 3.2, -4], point_c: [6, 2.8, -4], shadow: 0.0
+triangle, diffuse_color: [1, 0.78, 0],    point_a: [-0.7, 0, -3.5], point_b: [6, 2.8, -4], point_c: [6, 2.4, -4], shadow: 0.0
+triangle, diffuse_color: [1, 1, 0],    point_a: [-0.7, 0, -3.5], point_b: [6, 2.4, -4], point_c: [6, 2.0, -4], shadow: 0.0
+triangle, diffuse_color: [0.49, 1, 0],    point_a: [-0.7, 0, -3.5], point_b: [6, 2.0, -4], point_c: [6, 1.6, -4], shadow: 0.0
+triangle, diffuse_color: [0, 1, 0],    point_a: [-0.7, 0, -3.5], point_b: [6, 1.6, -4], point_c: [6, 1.2, -4], shadow: 0.0
+triangle, diffuse_color: [0, 1, 0.49],    point_a: [-0.7, 0, -3.5], point_b: [6, 1.2, -4], point_c: [6, 0.8, -4], shadow: 0.0
+triangle, diffuse_color: [0, 1, 1],    point_a: [-0.7, 0, -3.5], point_b: [6, 0.8, -4], point_c: [6, 0.4, -4], shadow: 0.0
+triangle, diffuse_color: [0, 0.49, 1],    point_a: [-0.7, 0, -3.5], point_b: [6, 0.4, -4], point_c: [6, 0, -4], shadow: 0.0
+triangle, diffuse_color: [0, 0, 1],    point_a: [-0.7, 0, -3.5], point_b: [6, 0, -4], point_c: [6, -0.4, -4], shadow: 0.0
+triangle, diffuse_color: [0.55, 0, 1],    point_a: [-0.7, 0, -3.5], point_b: [6, -0.4, -4], point_c: [6, -0.8, -4], shadow: 0.0
+triangle, diffuse_color: [1, 0, 1],    point_a: [-0.7, 0, -3.5], point_b: [6, -0.8, -4], point_c: [6, -1.2, -4], shadow: 0.0

@@ -1,0 +1,17 @@
+camera, width: 2.0, height: 2.0
+light, color: [2, 2, 2], radial-a2: 0.125, radial-a1: 0.125, radial-a0: 0.125, position: [0, 1, -1]
+plane, position: [0, -0.3, 0], normal: [0, 1, -0.15], diffuse_color: [0, 0, 1]
+% Boat
+triangle, point_a: [-1, 0, -2], point_b: [0, -0.3, -4], point_c: [-0.7, -0.8, -2.8], diffuse_color: [1, 1, 0]
+triangle, point_a: [0, -0.3, -4], point_b: [1.7, 0, -4], point_c: [0.7, -0.8, -2.8], diffuse_color: [1, 1, 0]
+triangle, point_a: [-0.7, -0.8, -2.8], point_b: [0, -0.3, -4], point_c: [0.7, -0.8, -2.8], diffuse_color: [1, 1, 0]
+triangle, point_a: [-1, -0.3, -3.2], point_b: [-0.1, 1, -4], point_c: [0, -0.3, -4], diffuse_color: [1, 1, 0]
+triangle, point_a: [0, -0.3, -4], point_b: [-0.1, 1, -4], point_c: [1, -0.3, -5.5], diffuse_color: [1, 1, 0]
+triangle, point_a: [-1, 0, -2], point_b: [-0.8, 0.1, -5.5], point_c: [-0.3, -1, -5.2], diffuse_color: [1, 1, 0]
+triangle, point_a: [-0.3, 0.2, -7.5], point_b: [1.7, 0, -4], point_c: [-0.3, -0.7, -7.5], diffuse_color: [1, 1, 0]
+% Mast
+triangle, point_a: [-0.15, 0.9, -4], point_b: [-0.15, 2, -4], point_c: [-0.1, 0.9, -4], diffuse_color: [1, 1, 1]
+triangle, point_a: [-0.15, 2, -4], point_b: [-0.1, 2, -4], point_c: [-0.1, 0.9, -4], diffuse_color: [1, 1, 1]
+% Flag
+triangle, point_a: [-0.1, 2, -4], point_b: [0.5, 2, -4.2], point_c: [-0.1, 1.7, -4], diffuse_color: [1, 0, 0]
+triangle, point_a: [-0.1, 1.7, -4], point_b: [0.5, 1.6, -4.2], point_c: [-0.1, 1.4, -4], diffuse_color: [1, 0, 0]
