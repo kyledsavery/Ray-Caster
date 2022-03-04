@@ -8,7 +8,7 @@ A SCENE files main component is a camera, which describes the width and height o
 
 * Cameras: Description begins with "camera" followed by its width and height.
   * `camera, width: W, height: H`
-* Lights: Description begins with "light" followed by the light's color, position and radial values.
+* Lights: Description begins with "light" followed by the light's color, position and radial values. Radials are defined between 0.0 and 1.0.
   * `light, color: [R, G, B], radial-a2: A2, radial-a1: A1, radial-a0: A0, position: [X, Y, Z]`
 * Spheres: Description begins with "sphere" followed by the sphere's diffuse color, specular color, radius, and position.
   * `sphere, diffuse_color: [R, G, B], specular_color: [R, G, B], radius: r, position: [X, Y, X]`
@@ -25,4 +25,4 @@ To use the Ray Caster, input a properly formatted SCENE file and give a name to 
 ```bash
 ./raycast input.scene output.ppm
 ```
-To view the newly created PPM you will need to download a compatible graphics program for your computer, such as [GIMP (GNU Image Manipulation Program)] (https://www.gimp.org/)
+To view the newly created PPM you will need to download a compatible graphics program for your computer, such as [GIMP (GNU Image Manipulation Program)](https://www.gimp.org/)
