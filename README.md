@@ -8,6 +8,7 @@ A SCENE files main component is a camera, which describes the width and height o
 
 * Lights
 * Spheres
+  * 'sphere, diffuse_color: [1, 0, 0], specular_color: [1, 1, 1], radius: 2, position: [0, 1, -5]'
 * Planes
 * Triangles
 
